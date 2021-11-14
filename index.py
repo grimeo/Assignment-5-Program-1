@@ -5,4 +5,7 @@
 # Description: Very Good
 
 def getInput():
-    input_Grade = float(input("Enter your grade:"))
+    global input_Grade
+    input_Grade = int(input("Enter your grade:"))
+
+getInput()
