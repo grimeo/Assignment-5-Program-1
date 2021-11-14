@@ -4,3 +4,5 @@
 # Grade/Mark: 1.75
 # Description: Very Good
 
+def getInput():
+    input_Grade = float(input("Enter your grade:"))
